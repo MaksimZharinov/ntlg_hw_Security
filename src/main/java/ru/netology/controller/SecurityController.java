@@ -8,16 +8,16 @@ public class SecurityController {
 
     @GetMapping("/public")
     public String getPublic() {
-        return "redirect:/public.html";
+        return "public.html";
     }
 
     @GetMapping("/auth")
     public String getAuth() {
-        return "redirect:/auth.html";
+        return "auth.html";
     }
 
     @GetMapping("/admins")
     public String getAdmins() {
-        return "redirect:/admins.html";
+        return "admins.html";
     }
 }
